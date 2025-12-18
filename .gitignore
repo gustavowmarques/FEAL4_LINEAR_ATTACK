@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+
+# Java
+*.class
+bin/
+out/
+
+# IDEs
+.idea/
+.vSCode/
+.DS_Store
