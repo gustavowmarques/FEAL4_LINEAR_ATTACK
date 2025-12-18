@@ -1,0 +1,521 @@
+gdasilva@TENCDWEMEA00008:/mnt/c/Users/gdasilva/Documents/DCU/Secure Software Engineering/Cryptography/CA/feal4_java_attack$ grep -n "static .*f" FEAL.java
+38:    static int f(int input) {
+gdasilva@TENCDWEMEA00008:/mnt/c/Users/gdasilva/Documents/DCU/Secure Software Engineering/Cryptography/CA/feal4_java_attack$ grep -n "static .*decrypt" FEAL.java
+70:    static void decrypt(byte data[],int key[]) {
+gdasilva@TENCDWEMEA00008:/mnt/c/Users/gdasilva/Documents/DCU/Secure Software Engineering/Cryptography/CA/feal4_java_attack$ javac FEAL.java MyFealLinear.java
+gdasilva@TENCDWEMEA00008:/mnt/c/Users/gdasilva/Documents/DCU/Secure Software Engineering/Cryptography/CA/feal4_java_attack$ java MyFealLinear
+Start Linear Analysis of Feal 4
+K0 0x63cab942   K1 0xa0c541     K2 0x4674095a   K3 0x64204c03   K4 0x4b37d10a   K5 0xd0a24877
+************ Profit ************
+K0 0x63cab942   K1 0xa0c541     K2 0x4674095a   K3 0x6420cc83   K4 0x4b37d108   K5 0xd0a24875
+************ Profit ************
+K0 0x63cab942   K1 0xa0c541     K2 0x4674095a   K3 0xe4a04c03   K4 0x4937d10a   K5 0xd2a24877
+************ Profit ************
+K0 0x63cab942   K1 0xa0c541     K2 0x4674095a   K3 0xe4a0cc83   K4 0x4937d108   K5 0xd2a24875
+************ Profit ************
+K0 0x63cab942   K1 0xa0c541     K2 0x467489da   K3 0x64204c01   K4 0x4b37d10a   K5 0xd0a24875
+************ Profit ************
+K0 0x63cab942   K1 0xa0c541     K2 0x467489da   K3 0x6420cc81   K4 0x4b37d108   K5 0xd0a24877
+************ Profit ************
+K0 0x63cab942   K1 0xa0c541     K2 0x467489da   K3 0xe4a04c01   K4 0x4937d10a   K5 0xd2a24875
+************ Profit ************
+K0 0x63cab942   K1 0xa0c541     K2 0x467489da   K3 0xe4a0cc81   K4 0x4937d108   K5 0xd2a24877
+************ Profit ************
+K0 0x63cab942   K1 0xa0c541     K2 0xc6f4095a   K3 0x66204c03   K4 0x4b37d10a   K5 0xd2a24877
+************ Profit ************
+K0 0x63cab942   K1 0xa0c541     K2 0xc6f4095a   K3 0x6620cc83   K4 0x4b37d108   K5 0xd2a24875
+************ Profit ************
+K0 0x63cab942   K1 0xa0c541     K2 0xc6f4095a   K3 0xe6a04c03   K4 0x4937d10a   K5 0xd0a24877
+************ Profit ************
+K0 0x63cab942   K1 0xa0c541     K2 0xc6f4095a   K3 0xe6a0cc83   K4 0x4937d108   K5 0xd0a24875
+************ Profit ************
+K0 0x63cab942   K1 0xa0c541     K2 0xc6f489da   K3 0x66204c01   K4 0x4b37d10a   K5 0xd2a24875
+************ Profit ************
+K0 0x63cab942   K1 0xa0c541     K2 0xc6f489da   K3 0x6620cc81   K4 0x4b37d108   K5 0xd2a24877
+************ Profit ************
+K0 0x63cab942   K1 0xa0c541     K2 0xc6f489da   K3 0xe6a04c01   K4 0x4937d10a   K5 0xd0a24875
+************ Profit ************
+K0 0x63cab942   K1 0xa0c541     K2 0xc6f489da   K3 0xe6a0cc81   K4 0x4937d108   K5 0xd0a24877
+************ Profit ************
+K0 0x63cab942   K1 0xa045c1     K2 0x46740958   K3 0x64204c03   K4 0x4b37d108   K5 0xd0a24875
+************ Profit ************
+K0 0x63cab942   K1 0xa045c1     K2 0x46740958   K3 0x6420cc83   K4 0x4b37d10a   K5 0xd0a24877
+************ Profit ************
+K0 0x63cab942   K1 0xa045c1     K2 0x46740958   K3 0xe4a04c03   K4 0x4937d108   K5 0xd2a24875
+************ Profit ************
+K0 0x63cab942   K1 0xa045c1     K2 0x46740958   K3 0xe4a0cc83   K4 0x4937d10a   K5 0xd2a24877
+************ Profit ************
+K0 0x63cab942   K1 0xa045c1     K2 0x467489d8   K3 0x64204c01   K4 0x4b37d108   K5 0xd0a24877
+************ Profit ************
+K0 0x63cab942   K1 0xa045c1     K2 0x467489d8   K3 0x6420cc81   K4 0x4b37d10a   K5 0xd0a24875
+************ Profit ************
+K0 0x63cab942   K1 0xa045c1     K2 0x467489d8   K3 0xe4a04c01   K4 0x4937d108   K5 0xd2a24877
+************ Profit ************
+K0 0x63cab942   K1 0xa045c1     K2 0x467489d8   K3 0xe4a0cc81   K4 0x4937d10a   K5 0xd2a24875
+************ Profit ************
+K0 0x63cab942   K1 0xa045c1     K2 0xc6f40958   K3 0x66204c03   K4 0x4b37d108   K5 0xd2a24875
+************ Profit ************
+K0 0x63cab942   K1 0xa045c1     K2 0xc6f40958   K3 0x6620cc83   K4 0x4b37d10a   K5 0xd2a24877
+************ Profit ************
+K0 0x63cab942   K1 0xa045c1     K2 0xc6f40958   K3 0xe6a04c03   K4 0x4937d108   K5 0xd0a24875
+************ Profit ************
+K0 0x63cab942   K1 0xa045c1     K2 0xc6f40958   K3 0xe6a0cc83   K4 0x4937d10a   K5 0xd0a24877
+************ Profit ************
+K0 0x63cab942   K1 0xa045c1     K2 0xc6f489d8   K3 0x66204c01   K4 0x4b37d108   K5 0xd2a24877
+************ Profit ************
+K0 0x63cab942   K1 0xa045c1     K2 0xc6f489d8   K3 0x6620cc81   K4 0x4b37d10a   K5 0xd2a24875
+************ Profit ************
+K0 0x63cab942   K1 0xa045c1     K2 0xc6f489d8   K3 0xe6a04c01   K4 0x4937d108   K5 0xd0a24877
+************ Profit ************
+K0 0x63cab942   K1 0xa045c1     K2 0xc6f489d8   K3 0xe6a0cc81   K4 0x4937d10a   K5 0xd0a24875
+************ Profit ************
+K0 0x63cab942   K1 0x8020c541   K2 0x4474095a   K3 0x64204c03   K4 0x4937d10a   K5 0xd2a24877
+************ Profit ************
+K0 0x63cab942   K1 0x8020c541   K2 0x4474095a   K3 0x6420cc83   K4 0x4937d108   K5 0xd2a24875
+************ Profit ************
+K0 0x63cab942   K1 0x8020c541   K2 0x4474095a   K3 0xe4a04c03   K4 0x4b37d10a   K5 0xd0a24877
+************ Profit ************
+K0 0x63cab942   K1 0x8020c541   K2 0x4474095a   K3 0xe4a0cc83   K4 0x4b37d108   K5 0xd0a24875
+************ Profit ************
+K0 0x63cab942   K1 0x8020c541   K2 0x447489da   K3 0x64204c01   K4 0x4937d10a   K5 0xd2a24875
+************ Profit ************
+K0 0x63cab942   K1 0x8020c541   K2 0x447489da   K3 0x6420cc81   K4 0x4937d108   K5 0xd2a24877
+************ Profit ************
+K0 0x63cab942   K1 0x8020c541   K2 0x447489da   K3 0xe4a04c01   K4 0x4b37d10a   K5 0xd0a24875
+************ Profit ************
+K0 0x63cab942   K1 0x8020c541   K2 0x447489da   K3 0xe4a0cc81   K4 0x4b37d108   K5 0xd0a24877
+************ Profit ************
+K0 0x63cab942   K1 0x8020c541   K2 0xc4f4095a   K3 0x66204c03   K4 0x4937d10a   K5 0xd0a24877
+************ Profit ************
+K0 0x63cab942   K1 0x8020c541   K2 0xc4f4095a   K3 0x6620cc83   K4 0x4937d108   K5 0xd0a24875
+************ Profit ************
+K0 0x63cab942   K1 0x8020c541   K2 0xc4f4095a   K3 0xe6a04c03   K4 0x4b37d10a   K5 0xd2a24877
+************ Profit ************
+K0 0x63cab942   K1 0x8020c541   K2 0xc4f4095a   K3 0xe6a0cc83   K4 0x4b37d108   K5 0xd2a24875
+************ Profit ************
+K0 0x63cab942   K1 0x8020c541   K2 0xc4f489da   K3 0x66204c01   K4 0x4937d10a   K5 0xd0a24875
+************ Profit ************
+K0 0x63cab942   K1 0x8020c541   K2 0xc4f489da   K3 0x6620cc81   K4 0x4937d108   K5 0xd0a24877
+************ Profit ************
+K0 0x63cab942   K1 0x8020c541   K2 0xc4f489da   K3 0xe6a04c01   K4 0x4b37d10a   K5 0xd2a24875
+************ Profit ************
+K0 0x63cab942   K1 0x8020c541   K2 0xc4f489da   K3 0xe6a0cc81   K4 0x4b37d108   K5 0xd2a24877
+************ Profit ************
+K0 0x63cab942   K1 0x802045c1   K2 0x44740958   K3 0x64204c03   K4 0x4937d108   K5 0xd2a24875
+************ Profit ************
+K0 0x63cab942   K1 0x802045c1   K2 0x44740958   K3 0x6420cc83   K4 0x4937d10a   K5 0xd2a24877
+************ Profit ************
+K0 0x63cab942   K1 0x802045c1   K2 0x44740958   K3 0xe4a04c03   K4 0x4b37d108   K5 0xd0a24875
+************ Profit ************
+K0 0x63cab942   K1 0x802045c1   K2 0x44740958   K3 0xe4a0cc83   K4 0x4b37d10a   K5 0xd0a24877
+************ Profit ************
+K0 0x63cab942   K1 0x802045c1   K2 0x447489d8   K3 0x64204c01   K4 0x4937d108   K5 0xd2a24877
+************ Profit ************
+K0 0x63cab942   K1 0x802045c1   K2 0x447489d8   K3 0x6420cc81   K4 0x4937d10a   K5 0xd2a24875
+************ Profit ************
+K0 0x63cab942   K1 0x802045c1   K2 0x447489d8   K3 0xe4a04c01   K4 0x4b37d108   K5 0xd0a24877
+************ Profit ************
+K0 0x63cab942   K1 0x802045c1   K2 0x447489d8   K3 0xe4a0cc81   K4 0x4b37d10a   K5 0xd0a24875
+************ Profit ************
+K0 0x63cab942   K1 0x802045c1   K2 0xc4f40958   K3 0x66204c03   K4 0x4937d108   K5 0xd0a24875
+************ Profit ************
+K0 0x63cab942   K1 0x802045c1   K2 0xc4f40958   K3 0x6620cc83   K4 0x4937d10a   K5 0xd0a24877
+************ Profit ************
+K0 0x63cab942   K1 0x802045c1   K2 0xc4f40958   K3 0xe6a04c03   K4 0x4b37d108   K5 0xd2a24875
+************ Profit ************
+K0 0x63cab942   K1 0x802045c1   K2 0xc4f40958   K3 0xe6a0cc83   K4 0x4b37d10a   K5 0xd2a24877
+************ Profit ************
+K0 0x63cab942   K1 0x802045c1   K2 0xc4f489d8   K3 0x66204c01   K4 0x4937d108   K5 0xd0a24877
+************ Profit ************
+K0 0x63cab942   K1 0x802045c1   K2 0xc4f489d8   K3 0x6620cc81   K4 0x4937d10a   K5 0xd0a24875
+************ Profit ************
+K0 0x63cab942   K1 0x802045c1   K2 0xc4f489d8   K3 0xe6a04c01   K4 0x4b37d108   K5 0xd2a24877
+************ Profit ************
+K0 0x63cab942   K1 0x802045c1   K2 0xc4f489d8   K3 0xe6a0cc81   K4 0x4b37d10a   K5 0xd2a24875
+************ Profit ************
+K0 0x63ca39c2   K1 0xa0c543     K2 0x4674095a   K3 0x64204c01   K4 0x4b37d10a   K5 0xd0a24875
+************ Profit ************
+K0 0x63ca39c2   K1 0xa0c543     K2 0x4674095a   K3 0x6420cc81   K4 0x4b37d108   K5 0xd0a24877
+************ Profit ************
+K0 0x63ca39c2   K1 0xa0c543     K2 0x4674095a   K3 0xe4a04c01   K4 0x4937d10a   K5 0xd2a24875
+************ Profit ************
+K0 0x63ca39c2   K1 0xa0c543     K2 0x4674095a   K3 0xe4a0cc81   K4 0x4937d108   K5 0xd2a24877
+************ Profit ************
+K0 0x63ca39c2   K1 0xa0c543     K2 0x467489da   K3 0x64204c03   K4 0x4b37d10a   K5 0xd0a24877
+************ Profit ************
+K0 0x63ca39c2   K1 0xa0c543     K2 0x467489da   K3 0x6420cc83   K4 0x4b37d108   K5 0xd0a24875
+************ Profit ************
+K0 0x63ca39c2   K1 0xa0c543     K2 0x467489da   K3 0xe4a04c03   K4 0x4937d10a   K5 0xd2a24877
+************ Profit ************
+K0 0x63ca39c2   K1 0xa0c543     K2 0x467489da   K3 0xe4a0cc83   K4 0x4937d108   K5 0xd2a24875
+************ Profit ************
+K0 0x63ca39c2   K1 0xa0c543     K2 0xc6f4095a   K3 0x66204c01   K4 0x4b37d10a   K5 0xd2a24875
+************ Profit ************
+K0 0x63ca39c2   K1 0xa0c543     K2 0xc6f4095a   K3 0x6620cc81   K4 0x4b37d108   K5 0xd2a24877
+************ Profit ************
+K0 0x63ca39c2   K1 0xa0c543     K2 0xc6f4095a   K3 0xe6a04c01   K4 0x4937d10a   K5 0xd0a24875
+************ Profit ************
+K0 0x63ca39c2   K1 0xa0c543     K2 0xc6f4095a   K3 0xe6a0cc81   K4 0x4937d108   K5 0xd0a24877
+************ Profit ************
+K0 0x63ca39c2   K1 0xa0c543     K2 0xc6f489da   K3 0x66204c03   K4 0x4b37d10a   K5 0xd2a24877
+************ Profit ************
+K0 0x63ca39c2   K1 0xa0c543     K2 0xc6f489da   K3 0x6620cc83   K4 0x4b37d108   K5 0xd2a24875
+************ Profit ************
+K0 0x63ca39c2   K1 0xa0c543     K2 0xc6f489da   K3 0xe6a04c03   K4 0x4937d10a   K5 0xd0a24877
+************ Profit ************
+K0 0x63ca39c2   K1 0xa0c543     K2 0xc6f489da   K3 0xe6a0cc83   K4 0x4937d108   K5 0xd0a24875
+************ Profit ************
+K0 0x63ca39c2   K1 0xa045c3     K2 0x46740958   K3 0x64204c01   K4 0x4b37d108   K5 0xd0a24877
+************ Profit ************
+K0 0x63ca39c2   K1 0xa045c3     K2 0x46740958   K3 0x6420cc81   K4 0x4b37d10a   K5 0xd0a24875
+************ Profit ************
+K0 0x63ca39c2   K1 0xa045c3     K2 0x46740958   K3 0xe4a04c01   K4 0x4937d108   K5 0xd2a24877
+************ Profit ************
+K0 0x63ca39c2   K1 0xa045c3     K2 0x46740958   K3 0xe4a0cc81   K4 0x4937d10a   K5 0xd2a24875
+************ Profit ************
+K0 0x63ca39c2   K1 0xa045c3     K2 0x467489d8   K3 0x64204c03   K4 0x4b37d108   K5 0xd0a24875
+************ Profit ************
+K0 0x63ca39c2   K1 0xa045c3     K2 0x467489d8   K3 0x6420cc83   K4 0x4b37d10a   K5 0xd0a24877
+************ Profit ************
+K0 0x63ca39c2   K1 0xa045c3     K2 0x467489d8   K3 0xe4a04c03   K4 0x4937d108   K5 0xd2a24875
+************ Profit ************
+K0 0x63ca39c2   K1 0xa045c3     K2 0x467489d8   K3 0xe4a0cc83   K4 0x4937d10a   K5 0xd2a24877
+************ Profit ************
+K0 0x63ca39c2   K1 0xa045c3     K2 0xc6f40958   K3 0x66204c01   K4 0x4b37d108   K5 0xd2a24877
+************ Profit ************
+K0 0x63ca39c2   K1 0xa045c3     K2 0xc6f40958   K3 0x6620cc81   K4 0x4b37d10a   K5 0xd2a24875
+************ Profit ************
+K0 0x63ca39c2   K1 0xa045c3     K2 0xc6f40958   K3 0xe6a04c01   K4 0x4937d108   K5 0xd0a24877
+************ Profit ************
+K0 0x63ca39c2   K1 0xa045c3     K2 0xc6f40958   K3 0xe6a0cc81   K4 0x4937d10a   K5 0xd0a24875
+************ Profit ************
+K0 0x63ca39c2   K1 0xa045c3     K2 0xc6f489d8   K3 0x66204c03   K4 0x4b37d108   K5 0xd2a24875
+************ Profit ************
+K0 0x63ca39c2   K1 0xa045c3     K2 0xc6f489d8   K3 0x6620cc83   K4 0x4b37d10a   K5 0xd2a24877
+************ Profit ************
+K0 0x63ca39c2   K1 0xa045c3     K2 0xc6f489d8   K3 0xe6a04c03   K4 0x4937d108   K5 0xd0a24875
+************ Profit ************
+K0 0x63ca39c2   K1 0xa045c3     K2 0xc6f489d8   K3 0xe6a0cc83   K4 0x4937d10a   K5 0xd0a24877
+************ Profit ************
+K0 0x63ca39c2   K1 0x8020c543   K2 0x4474095a   K3 0x64204c01   K4 0x4937d10a   K5 0xd2a24875
+************ Profit ************
+K0 0x63ca39c2   K1 0x8020c543   K2 0x4474095a   K3 0x6420cc81   K4 0x4937d108   K5 0xd2a24877
+************ Profit ************
+K0 0x63ca39c2   K1 0x8020c543   K2 0x4474095a   K3 0xe4a04c01   K4 0x4b37d10a   K5 0xd0a24875
+************ Profit ************
+K0 0x63ca39c2   K1 0x8020c543   K2 0x4474095a   K3 0xe4a0cc81   K4 0x4b37d108   K5 0xd0a24877
+************ Profit ************
+K0 0x63ca39c2   K1 0x8020c543   K2 0x447489da   K3 0x64204c03   K4 0x4937d10a   K5 0xd2a24877
+************ Profit ************
+K0 0x63ca39c2   K1 0x8020c543   K2 0x447489da   K3 0x6420cc83   K4 0x4937d108   K5 0xd2a24875
+************ Profit ************
+K0 0x63ca39c2   K1 0x8020c543   K2 0x447489da   K3 0xe4a04c03   K4 0x4b37d10a   K5 0xd0a24877
+************ Profit ************
+K0 0x63ca39c2   K1 0x8020c543   K2 0x447489da   K3 0xe4a0cc83   K4 0x4b37d108   K5 0xd0a24875
+************ Profit ************
+K0 0x63ca39c2   K1 0x8020c543   K2 0xc4f4095a   K3 0x66204c01   K4 0x4937d10a   K5 0xd0a24875
+************ Profit ************
+K0 0x63ca39c2   K1 0x8020c543   K2 0xc4f4095a   K3 0x6620cc81   K4 0x4937d108   K5 0xd0a24877
+************ Profit ************
+K0 0x63ca39c2   K1 0x8020c543   K2 0xc4f4095a   K3 0xe6a04c01   K4 0x4b37d10a   K5 0xd2a24875
+************ Profit ************
+K0 0x63ca39c2   K1 0x8020c543   K2 0xc4f4095a   K3 0xe6a0cc81   K4 0x4b37d108   K5 0xd2a24877
+************ Profit ************
+K0 0x63ca39c2   K1 0x8020c543   K2 0xc4f489da   K3 0x66204c03   K4 0x4937d10a   K5 0xd0a24877
+************ Profit ************
+K0 0x63ca39c2   K1 0x8020c543   K2 0xc4f489da   K3 0x6620cc83   K4 0x4937d108   K5 0xd0a24875
+************ Profit ************
+K0 0x63ca39c2   K1 0x8020c543   K2 0xc4f489da   K3 0xe6a04c03   K4 0x4b37d10a   K5 0xd2a24877
+************ Profit ************
+K0 0x63ca39c2   K1 0x8020c543   K2 0xc4f489da   K3 0xe6a0cc83   K4 0x4b37d108   K5 0xd2a24875
+************ Profit ************
+K0 0x63ca39c2   K1 0x802045c3   K2 0x44740958   K3 0x64204c01   K4 0x4937d108   K5 0xd2a24877
+************ Profit ************
+K0 0x63ca39c2   K1 0x802045c3   K2 0x44740958   K3 0x6420cc81   K4 0x4937d10a   K5 0xd2a24875
+************ Profit ************
+K0 0x63ca39c2   K1 0x802045c3   K2 0x44740958   K3 0xe4a04c01   K4 0x4b37d108   K5 0xd0a24877
+************ Profit ************
+K0 0x63ca39c2   K1 0x802045c3   K2 0x44740958   K3 0xe4a0cc81   K4 0x4b37d10a   K5 0xd0a24875
+************ Profit ************
+K0 0x63ca39c2   K1 0x802045c3   K2 0x447489d8   K3 0x64204c03   K4 0x4937d108   K5 0xd2a24875
+************ Profit ************
+K0 0x63ca39c2   K1 0x802045c3   K2 0x447489d8   K3 0x6420cc83   K4 0x4937d10a   K5 0xd2a24877
+************ Profit ************
+K0 0x63ca39c2   K1 0x802045c3   K2 0x447489d8   K3 0xe4a04c03   K4 0x4b37d108   K5 0xd0a24875
+************ Profit ************
+K0 0x63ca39c2   K1 0x802045c3   K2 0x447489d8   K3 0xe4a0cc83   K4 0x4b37d10a   K5 0xd0a24877
+************ Profit ************
+K0 0x63ca39c2   K1 0x802045c3   K2 0xc4f40958   K3 0x66204c01   K4 0x4937d108   K5 0xd0a24877
+************ Profit ************
+K0 0x63ca39c2   K1 0x802045c3   K2 0xc4f40958   K3 0x6620cc81   K4 0x4937d10a   K5 0xd0a24875
+************ Profit ************
+K0 0x63ca39c2   K1 0x802045c3   K2 0xc4f40958   K3 0xe6a04c01   K4 0x4b37d108   K5 0xd2a24877
+************ Profit ************
+K0 0x63ca39c2   K1 0x802045c3   K2 0xc4f40958   K3 0xe6a0cc81   K4 0x4b37d10a   K5 0xd2a24875
+************ Profit ************
+K0 0x63ca39c2   K1 0x802045c3   K2 0xc4f489d8   K3 0x66204c03   K4 0x4937d108   K5 0xd0a24875
+************ Profit ************
+K0 0x63ca39c2   K1 0x802045c3   K2 0xc4f489d8   K3 0x6620cc83   K4 0x4937d10a   K5 0xd0a24877
+************ Profit ************
+K0 0x63ca39c2   K1 0x802045c3   K2 0xc4f489d8   K3 0xe6a04c03   K4 0x4b37d108   K5 0xd2a24875
+************ Profit ************
+K0 0x63ca39c2   K1 0x802045c3   K2 0xc4f489d8   K3 0xe6a0cc83   K4 0x4b37d10a   K5 0xd2a24877
+************ Profit ************
+K0 0xe34ab942   K1 0x2a0c541    K2 0x4674095a   K3 0x66204c03   K4 0x4b37d10a   K5 0xd2a24877
+************ Profit ************
+K0 0xe34ab942   K1 0x2a0c541    K2 0x4674095a   K3 0x6620cc83   K4 0x4b37d108   K5 0xd2a24875
+************ Profit ************
+K0 0xe34ab942   K1 0x2a0c541    K2 0x4674095a   K3 0xe6a04c03   K4 0x4937d10a   K5 0xd0a24877
+************ Profit ************
+K0 0xe34ab942   K1 0x2a0c541    K2 0x4674095a   K3 0xe6a0cc83   K4 0x4937d108   K5 0xd0a24875
+************ Profit ************
+K0 0xe34ab942   K1 0x2a0c541    K2 0x467489da   K3 0x66204c01   K4 0x4b37d10a   K5 0xd2a24875
+************ Profit ************
+K0 0xe34ab942   K1 0x2a0c541    K2 0x467489da   K3 0x6620cc81   K4 0x4b37d108   K5 0xd2a24877
+************ Profit ************
+K0 0xe34ab942   K1 0x2a0c541    K2 0x467489da   K3 0xe6a04c01   K4 0x4937d10a   K5 0xd0a24875
+************ Profit ************
+K0 0xe34ab942   K1 0x2a0c541    K2 0x467489da   K3 0xe6a0cc81   K4 0x4937d108   K5 0xd0a24877
+************ Profit ************
+K0 0xe34ab942   K1 0x2a0c541    K2 0xc6f4095a   K3 0x64204c03   K4 0x4b37d10a   K5 0xd0a24877
+************ Profit ************
+K0 0xe34ab942   K1 0x2a0c541    K2 0xc6f4095a   K3 0x6420cc83   K4 0x4b37d108   K5 0xd0a24875
+************ Profit ************
+K0 0xe34ab942   K1 0x2a0c541    K2 0xc6f4095a   K3 0xe4a04c03   K4 0x4937d10a   K5 0xd2a24877
+************ Profit ************
+K0 0xe34ab942   K1 0x2a0c541    K2 0xc6f4095a   K3 0xe4a0cc83   K4 0x4937d108   K5 0xd2a24875
+************ Profit ************
+K0 0xe34ab942   K1 0x2a0c541    K2 0xc6f489da   K3 0x64204c01   K4 0x4b37d10a   K5 0xd0a24875
+************ Profit ************
+K0 0xe34ab942   K1 0x2a0c541    K2 0xc6f489da   K3 0x6420cc81   K4 0x4b37d108   K5 0xd0a24877
+************ Profit ************
+K0 0xe34ab942   K1 0x2a0c541    K2 0xc6f489da   K3 0xe4a04c01   K4 0x4937d10a   K5 0xd2a24875
+************ Profit ************
+K0 0xe34ab942   K1 0x2a0c541    K2 0xc6f489da   K3 0xe4a0cc81   K4 0x4937d108   K5 0xd2a24877
+************ Profit ************
+K0 0xe34ab942   K1 0x2a045c1    K2 0x46740958   K3 0x66204c03   K4 0x4b37d108   K5 0xd2a24875
+************ Profit ************
+K0 0xe34ab942   K1 0x2a045c1    K2 0x46740958   K3 0x6620cc83   K4 0x4b37d10a   K5 0xd2a24877
+************ Profit ************
+K0 0xe34ab942   K1 0x2a045c1    K2 0x46740958   K3 0xe6a04c03   K4 0x4937d108   K5 0xd0a24875
+************ Profit ************
+K0 0xe34ab942   K1 0x2a045c1    K2 0x46740958   K3 0xe6a0cc83   K4 0x4937d10a   K5 0xd0a24877
+************ Profit ************
+K0 0xe34ab942   K1 0x2a045c1    K2 0x467489d8   K3 0x66204c01   K4 0x4b37d108   K5 0xd2a24877
+************ Profit ************
+K0 0xe34ab942   K1 0x2a045c1    K2 0x467489d8   K3 0x6620cc81   K4 0x4b37d10a   K5 0xd2a24875
+************ Profit ************
+K0 0xe34ab942   K1 0x2a045c1    K2 0x467489d8   K3 0xe6a04c01   K4 0x4937d108   K5 0xd0a24877
+************ Profit ************
+K0 0xe34ab942   K1 0x2a045c1    K2 0x467489d8   K3 0xe6a0cc81   K4 0x4937d10a   K5 0xd0a24875
+************ Profit ************
+K0 0xe34ab942   K1 0x2a045c1    K2 0xc6f40958   K3 0x64204c03   K4 0x4b37d108   K5 0xd0a24875
+************ Profit ************
+K0 0xe34ab942   K1 0x2a045c1    K2 0xc6f40958   K3 0x6420cc83   K4 0x4b37d10a   K5 0xd0a24877
+************ Profit ************
+K0 0xe34ab942   K1 0x2a045c1    K2 0xc6f40958   K3 0xe4a04c03   K4 0x4937d108   K5 0xd2a24875
+************ Profit ************
+K0 0xe34ab942   K1 0x2a045c1    K2 0xc6f40958   K3 0xe4a0cc83   K4 0x4937d10a   K5 0xd2a24877
+************ Profit ************
+K0 0xe34ab942   K1 0x2a045c1    K2 0xc6f489d8   K3 0x64204c01   K4 0x4b37d108   K5 0xd0a24877
+************ Profit ************
+K0 0xe34ab942   K1 0x2a045c1    K2 0xc6f489d8   K3 0x6420cc81   K4 0x4b37d10a   K5 0xd0a24875
+************ Profit ************
+K0 0xe34ab942   K1 0x2a045c1    K2 0xc6f489d8   K3 0xe4a04c01   K4 0x4937d108   K5 0xd2a24877
+************ Profit ************
+K0 0xe34ab942   K1 0x2a045c1    K2 0xc6f489d8   K3 0xe4a0cc81   K4 0x4937d10a   K5 0xd2a24875
+************ Profit ************
+K0 0xe34ab942   K1 0x8220c541   K2 0x4474095a   K3 0x66204c03   K4 0x4937d10a   K5 0xd0a24877
+************ Profit ************
+K0 0xe34ab942   K1 0x8220c541   K2 0x4474095a   K3 0x6620cc83   K4 0x4937d108   K5 0xd0a24875
+************ Profit ************
+K0 0xe34ab942   K1 0x8220c541   K2 0x4474095a   K3 0xe6a04c03   K4 0x4b37d10a   K5 0xd2a24877
+************ Profit ************
+K0 0xe34ab942   K1 0x8220c541   K2 0x4474095a   K3 0xe6a0cc83   K4 0x4b37d108   K5 0xd2a24875
+************ Profit ************
+K0 0xe34ab942   K1 0x8220c541   K2 0x447489da   K3 0x66204c01   K4 0x4937d10a   K5 0xd0a24875
+************ Profit ************
+K0 0xe34ab942   K1 0x8220c541   K2 0x447489da   K3 0x6620cc81   K4 0x4937d108   K5 0xd0a24877
+************ Profit ************
+K0 0xe34ab942   K1 0x8220c541   K2 0x447489da   K3 0xe6a04c01   K4 0x4b37d10a   K5 0xd2a24875
+************ Profit ************
+K0 0xe34ab942   K1 0x8220c541   K2 0x447489da   K3 0xe6a0cc81   K4 0x4b37d108   K5 0xd2a24877
+************ Profit ************
+K0 0xe34ab942   K1 0x8220c541   K2 0xc4f4095a   K3 0x64204c03   K4 0x4937d10a   K5 0xd2a24877
+************ Profit ************
+K0 0xe34ab942   K1 0x8220c541   K2 0xc4f4095a   K3 0x6420cc83   K4 0x4937d108   K5 0xd2a24875
+************ Profit ************
+K0 0xe34ab942   K1 0x8220c541   K2 0xc4f4095a   K3 0xe4a04c03   K4 0x4b37d10a   K5 0xd0a24877
+************ Profit ************
+K0 0xe34ab942   K1 0x8220c541   K2 0xc4f4095a   K3 0xe4a0cc83   K4 0x4b37d108   K5 0xd0a24875
+************ Profit ************
+K0 0xe34ab942   K1 0x8220c541   K2 0xc4f489da   K3 0x64204c01   K4 0x4937d10a   K5 0xd2a24875
+************ Profit ************
+K0 0xe34ab942   K1 0x8220c541   K2 0xc4f489da   K3 0x6420cc81   K4 0x4937d108   K5 0xd2a24877
+************ Profit ************
+K0 0xe34ab942   K1 0x8220c541   K2 0xc4f489da   K3 0xe4a04c01   K4 0x4b37d10a   K5 0xd0a24875
+************ Profit ************
+K0 0xe34ab942   K1 0x8220c541   K2 0xc4f489da   K3 0xe4a0cc81   K4 0x4b37d108   K5 0xd0a24877
+************ Profit ************
+K0 0xe34ab942   K1 0x822045c1   K2 0x44740958   K3 0x66204c03   K4 0x4937d108   K5 0xd0a24875
+************ Profit ************
+K0 0xe34ab942   K1 0x822045c1   K2 0x44740958   K3 0x6620cc83   K4 0x4937d10a   K5 0xd0a24877
+************ Profit ************
+K0 0xe34ab942   K1 0x822045c1   K2 0x44740958   K3 0xe6a04c03   K4 0x4b37d108   K5 0xd2a24875
+************ Profit ************
+K0 0xe34ab942   K1 0x822045c1   K2 0x44740958   K3 0xe6a0cc83   K4 0x4b37d10a   K5 0xd2a24877
+************ Profit ************
+K0 0xe34ab942   K1 0x822045c1   K2 0x447489d8   K3 0x66204c01   K4 0x4937d108   K5 0xd0a24877
+************ Profit ************
+K0 0xe34ab942   K1 0x822045c1   K2 0x447489d8   K3 0x6620cc81   K4 0x4937d10a   K5 0xd0a24875
+************ Profit ************
+K0 0xe34ab942   K1 0x822045c1   K2 0x447489d8   K3 0xe6a04c01   K4 0x4b37d108   K5 0xd2a24877
+************ Profit ************
+K0 0xe34ab942   K1 0x822045c1   K2 0x447489d8   K3 0xe6a0cc81   K4 0x4b37d10a   K5 0xd2a24875
+************ Profit ************
+K0 0xe34ab942   K1 0x822045c1   K2 0xc4f40958   K3 0x64204c03   K4 0x4937d108   K5 0xd2a24875
+************ Profit ************
+K0 0xe34ab942   K1 0x822045c1   K2 0xc4f40958   K3 0x6420cc83   K4 0x4937d10a   K5 0xd2a24877
+************ Profit ************
+K0 0xe34ab942   K1 0x822045c1   K2 0xc4f40958   K3 0xe4a04c03   K4 0x4b37d108   K5 0xd0a24875
+************ Profit ************
+K0 0xe34ab942   K1 0x822045c1   K2 0xc4f40958   K3 0xe4a0cc83   K4 0x4b37d10a   K5 0xd0a24877
+************ Profit ************
+K0 0xe34ab942   K1 0x822045c1   K2 0xc4f489d8   K3 0x64204c01   K4 0x4937d108   K5 0xd2a24877
+************ Profit ************
+K0 0xe34ab942   K1 0x822045c1   K2 0xc4f489d8   K3 0x6420cc81   K4 0x4937d10a   K5 0xd2a24875
+************ Profit ************
+K0 0xe34ab942   K1 0x822045c1   K2 0xc4f489d8   K3 0xe4a04c01   K4 0x4b37d108   K5 0xd0a24877
+************ Profit ************
+K0 0xe34ab942   K1 0x822045c1   K2 0xc4f489d8   K3 0xe4a0cc81   K4 0x4b37d10a   K5 0xd0a24875
+************ Profit ************
+K0 0xe34a39c2   K1 0x2a0c543    K2 0x4674095a   K3 0x66204c01   K4 0x4b37d10a   K5 0xd2a24875
+************ Profit ************
+K0 0xe34a39c2   K1 0x2a0c543    K2 0x4674095a   K3 0x6620cc81   K4 0x4b37d108   K5 0xd2a24877
+************ Profit ************
+K0 0xe34a39c2   K1 0x2a0c543    K2 0x4674095a   K3 0xe6a04c01   K4 0x4937d10a   K5 0xd0a24875
+************ Profit ************
+K0 0xe34a39c2   K1 0x2a0c543    K2 0x4674095a   K3 0xe6a0cc81   K4 0x4937d108   K5 0xd0a24877
+************ Profit ************
+K0 0xe34a39c2   K1 0x2a0c543    K2 0x467489da   K3 0x66204c03   K4 0x4b37d10a   K5 0xd2a24877
+************ Profit ************
+K0 0xe34a39c2   K1 0x2a0c543    K2 0x467489da   K3 0x6620cc83   K4 0x4b37d108   K5 0xd2a24875
+************ Profit ************
+K0 0xe34a39c2   K1 0x2a0c543    K2 0x467489da   K3 0xe6a04c03   K4 0x4937d10a   K5 0xd0a24877
+************ Profit ************
+K0 0xe34a39c2   K1 0x2a0c543    K2 0x467489da   K3 0xe6a0cc83   K4 0x4937d108   K5 0xd0a24875
+************ Profit ************
+K0 0xe34a39c2   K1 0x2a0c543    K2 0xc6f4095a   K3 0x64204c01   K4 0x4b37d10a   K5 0xd0a24875
+************ Profit ************
+K0 0xe34a39c2   K1 0x2a0c543    K2 0xc6f4095a   K3 0x6420cc81   K4 0x4b37d108   K5 0xd0a24877
+************ Profit ************
+K0 0xe34a39c2   K1 0x2a0c543    K2 0xc6f4095a   K3 0xe4a04c01   K4 0x4937d10a   K5 0xd2a24875
+************ Profit ************
+K0 0xe34a39c2   K1 0x2a0c543    K2 0xc6f4095a   K3 0xe4a0cc81   K4 0x4937d108   K5 0xd2a24877
+************ Profit ************
+K0 0xe34a39c2   K1 0x2a0c543    K2 0xc6f489da   K3 0x64204c03   K4 0x4b37d10a   K5 0xd0a24877
+************ Profit ************
+K0 0xe34a39c2   K1 0x2a0c543    K2 0xc6f489da   K3 0x6420cc83   K4 0x4b37d108   K5 0xd0a24875
+************ Profit ************
+K0 0xe34a39c2   K1 0x2a0c543    K2 0xc6f489da   K3 0xe4a04c03   K4 0x4937d10a   K5 0xd2a24877
+************ Profit ************
+K0 0xe34a39c2   K1 0x2a0c543    K2 0xc6f489da   K3 0xe4a0cc83   K4 0x4937d108   K5 0xd2a24875
+************ Profit ************
+K0 0xe34a39c2   K1 0x2a045c3    K2 0x46740958   K3 0x66204c01   K4 0x4b37d108   K5 0xd2a24877
+************ Profit ************
+K0 0xe34a39c2   K1 0x2a045c3    K2 0x46740958   K3 0x6620cc81   K4 0x4b37d10a   K5 0xd2a24875
+************ Profit ************
+K0 0xe34a39c2   K1 0x2a045c3    K2 0x46740958   K3 0xe6a04c01   K4 0x4937d108   K5 0xd0a24877
+************ Profit ************
+K0 0xe34a39c2   K1 0x2a045c3    K2 0x46740958   K3 0xe6a0cc81   K4 0x4937d10a   K5 0xd0a24875
+************ Profit ************
+K0 0xe34a39c2   K1 0x2a045c3    K2 0x467489d8   K3 0x66204c03   K4 0x4b37d108   K5 0xd2a24875
+************ Profit ************
+K0 0xe34a39c2   K1 0x2a045c3    K2 0x467489d8   K3 0x6620cc83   K4 0x4b37d10a   K5 0xd2a24877
+************ Profit ************
+K0 0xe34a39c2   K1 0x2a045c3    K2 0x467489d8   K3 0xe6a04c03   K4 0x4937d108   K5 0xd0a24875
+************ Profit ************
+K0 0xe34a39c2   K1 0x2a045c3    K2 0x467489d8   K3 0xe6a0cc83   K4 0x4937d10a   K5 0xd0a24877
+************ Profit ************
+K0 0xe34a39c2   K1 0x2a045c3    K2 0xc6f40958   K3 0x64204c01   K4 0x4b37d108   K5 0xd0a24877
+************ Profit ************
+K0 0xe34a39c2   K1 0x2a045c3    K2 0xc6f40958   K3 0x6420cc81   K4 0x4b37d10a   K5 0xd0a24875
+************ Profit ************
+K0 0xe34a39c2   K1 0x2a045c3    K2 0xc6f40958   K3 0xe4a04c01   K4 0x4937d108   K5 0xd2a24877
+************ Profit ************
+K0 0xe34a39c2   K1 0x2a045c3    K2 0xc6f40958   K3 0xe4a0cc81   K4 0x4937d10a   K5 0xd2a24875
+************ Profit ************
+K0 0xe34a39c2   K1 0x2a045c3    K2 0xc6f489d8   K3 0x64204c03   K4 0x4b37d108   K5 0xd0a24875
+************ Profit ************
+K0 0xe34a39c2   K1 0x2a045c3    K2 0xc6f489d8   K3 0x6420cc83   K4 0x4b37d10a   K5 0xd0a24877
+************ Profit ************
+K0 0xe34a39c2   K1 0x2a045c3    K2 0xc6f489d8   K3 0xe4a04c03   K4 0x4937d108   K5 0xd2a24875
+************ Profit ************
+K0 0xe34a39c2   K1 0x2a045c3    K2 0xc6f489d8   K3 0xe4a0cc83   K4 0x4937d10a   K5 0xd2a24877
+************ Profit ************
+K0 0xe34a39c2   K1 0x8220c543   K2 0x4474095a   K3 0x66204c01   K4 0x4937d10a   K5 0xd0a24875
+************ Profit ************
+K0 0xe34a39c2   K1 0x8220c543   K2 0x4474095a   K3 0x6620cc81   K4 0x4937d108   K5 0xd0a24877
+************ Profit ************
+K0 0xe34a39c2   K1 0x8220c543   K2 0x4474095a   K3 0xe6a04c01   K4 0x4b37d10a   K5 0xd2a24875
+************ Profit ************
+K0 0xe34a39c2   K1 0x8220c543   K2 0x4474095a   K3 0xe6a0cc81   K4 0x4b37d108   K5 0xd2a24877
+************ Profit ************
+K0 0xe34a39c2   K1 0x8220c543   K2 0x447489da   K3 0x66204c03   K4 0x4937d10a   K5 0xd0a24877
+************ Profit ************
+K0 0xe34a39c2   K1 0x8220c543   K2 0x447489da   K3 0x6620cc83   K4 0x4937d108   K5 0xd0a24875
+************ Profit ************
+K0 0xe34a39c2   K1 0x8220c543   K2 0x447489da   K3 0xe6a04c03   K4 0x4b37d10a   K5 0xd2a24877
+************ Profit ************
+K0 0xe34a39c2   K1 0x8220c543   K2 0x447489da   K3 0xe6a0cc83   K4 0x4b37d108   K5 0xd2a24875
+************ Profit ************
+K0 0xe34a39c2   K1 0x8220c543   K2 0xc4f4095a   K3 0x64204c01   K4 0x4937d10a   K5 0xd2a24875
+************ Profit ************
+K0 0xe34a39c2   K1 0x8220c543   K2 0xc4f4095a   K3 0x6420cc81   K4 0x4937d108   K5 0xd2a24877
+************ Profit ************
+K0 0xe34a39c2   K1 0x8220c543   K2 0xc4f4095a   K3 0xe4a04c01   K4 0x4b37d10a   K5 0xd0a24875
+************ Profit ************
+K0 0xe34a39c2   K1 0x8220c543   K2 0xc4f4095a   K3 0xe4a0cc81   K4 0x4b37d108   K5 0xd0a24877
+************ Profit ************
+K0 0xe34a39c2   K1 0x8220c543   K2 0xc4f489da   K3 0x64204c03   K4 0x4937d10a   K5 0xd2a24877
+************ Profit ************
+K0 0xe34a39c2   K1 0x8220c543   K2 0xc4f489da   K3 0x6420cc83   K4 0x4937d108   K5 0xd2a24875
+************ Profit ************
+K0 0xe34a39c2   K1 0x8220c543   K2 0xc4f489da   K3 0xe4a04c03   K4 0x4b37d10a   K5 0xd0a24877
+************ Profit ************
+K0 0xe34a39c2   K1 0x8220c543   K2 0xc4f489da   K3 0xe4a0cc83   K4 0x4b37d108   K5 0xd0a24875
+************ Profit ************
+K0 0xe34a39c2   K1 0x822045c3   K2 0x44740958   K3 0x66204c01   K4 0x4937d108   K5 0xd0a24877
+************ Profit ************
+K0 0xe34a39c2   K1 0x822045c3   K2 0x44740958   K3 0x6620cc81   K4 0x4937d10a   K5 0xd0a24875
+************ Profit ************
+K0 0xe34a39c2   K1 0x822045c3   K2 0x44740958   K3 0xe6a04c01   K4 0x4b37d108   K5 0xd2a24877
+************ Profit ************
+K0 0xe34a39c2   K1 0x822045c3   K2 0x44740958   K3 0xe6a0cc81   K4 0x4b37d10a   K5 0xd2a24875
+************ Profit ************
+K0 0xe34a39c2   K1 0x822045c3   K2 0x447489d8   K3 0x66204c03   K4 0x4937d108   K5 0xd0a24875
+************ Profit ************
+K0 0xe34a39c2   K1 0x822045c3   K2 0x447489d8   K3 0x6620cc83   K4 0x4937d10a   K5 0xd0a24877
+************ Profit ************
+K0 0xe34a39c2   K1 0x822045c3   K2 0x447489d8   K3 0xe6a04c03   K4 0x4b37d108   K5 0xd2a24875
+************ Profit ************
+K0 0xe34a39c2   K1 0x822045c3   K2 0x447489d8   K3 0xe6a0cc83   K4 0x4b37d10a   K5 0xd2a24877
+************ Profit ************
+K0 0xe34a39c2   K1 0x822045c3   K2 0xc4f40958   K3 0x64204c01   K4 0x4937d108   K5 0xd2a24877
+************ Profit ************
+K0 0xe34a39c2   K1 0x822045c3   K2 0xc4f40958   K3 0x6420cc81   K4 0x4937d10a   K5 0xd2a24875
+************ Profit ************
+K0 0xe34a39c2   K1 0x822045c3   K2 0xc4f40958   K3 0xe4a04c01   K4 0x4b37d108   K5 0xd0a24877
+************ Profit ************
+K0 0xe34a39c2   K1 0x822045c3   K2 0xc4f40958   K3 0xe4a0cc81   K4 0x4b37d10a   K5 0xd0a24875
+************ Profit ************
+K0 0xe34a39c2   K1 0x822045c3   K2 0xc4f489d8   K3 0x64204c03   K4 0x4937d108   K5 0xd2a24875
+************ Profit ************
+K0 0xe34a39c2   K1 0x822045c3   K2 0xc4f489d8   K3 0x6420cc83   K4 0x4937d10a   K5 0xd2a24877
+************ Profit ************
+K0 0xe34a39c2   K1 0x822045c3   K2 0xc4f489d8   K3 0xe4a04c03   K4 0x4b37d108   K5 0xd0a24875
+************ Profit ************
+K0 0xe34a39c2   K1 0x822045c3   K2 0xc4f489d8   K3 0xe4a0cc83   K4 0x4b37d10a   K5 0xd0a24877
+************ Profit ************
+Finish Linear Analysis of Feal 4
+gdasilva@TENCDWEMEA00008:/mnt/c/Users/gdasilva/Documents/DCU/Secure Software Engineering/Cryptography/CA/feal4_java_attack$ 
